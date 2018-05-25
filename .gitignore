@@ -97,3 +97,9 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+#mnist-data
+MNIST-data
+
+#irisdata
+IRIS-datasets

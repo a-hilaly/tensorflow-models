@@ -11,8 +11,8 @@ tf.enable_eager_execution()
 print("TensorFlow version: {}".format(tf.VERSION))
 print("Eager execution: {}".format(tf.executing_eagerly()))
 
-train_dataset_path = "./iris/datasets/iris_training.csv"
-test_dataset_path = "./iris/datasets/iris_test.csv"
+train_dataset_path = "./datasets/iris_training.csv"
+test_dataset_path = "./datasets/iris_test.csv"
 
 #print("Local copy of the dataset file: {}".format(train_dataset_fp))
 # parse csv
