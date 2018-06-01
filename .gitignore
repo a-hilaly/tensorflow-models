@@ -103,3 +103,6 @@ MNIST-data
 
 #irisdata
 IRIS-datasets
+
+#pascal voc
+pascal_voc
