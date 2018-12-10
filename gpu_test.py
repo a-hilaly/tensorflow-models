@@ -9,6 +9,6 @@ def test():
 
 try:
   test()
-except:
-  print("[ERROR] using tensorflow gpu")
+except Exception as e:
+  print("error using tensorflow gpu:\n", e)
 

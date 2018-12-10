@@ -10,6 +10,6 @@ def test():
 
 try:
   test()
-except:
-  print("error using tensorflow cpu")
+except Exception as e:
+  print("error using tensorflow cpu:\n", e)
 
