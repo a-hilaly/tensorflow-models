@@ -1,4 +1,6 @@
 import tensorflow as tf
+import sys
+
 
 def test():
   with tf.device('/cpu:0'):
@@ -12,4 +14,5 @@ try:
   test()
 except Exception as e:
   print("error using tensorflow cpu:\n", e)
+
 

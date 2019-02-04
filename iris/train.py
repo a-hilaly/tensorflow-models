@@ -141,7 +141,15 @@ def predict_cases():
 
 #E.P
 if __name__ == "__main__":
-    with tf.device("/gpu:0"):
+    with tf.device("/cpu:0"):
+        print("[INFO] start training model\n")
         train_model()
+
+        print("[INFO] showing training loss/acuracy plots\n")
+        show_stats()
+
+        print("[INFO] testing the model")
         test_model()
+
+        print("[INFO] predict cases")
         predict_cases()
